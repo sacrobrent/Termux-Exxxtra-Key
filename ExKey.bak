@@ -1,0 +1,66 @@
+clear
+echo "████████╗███████╗██████╗░███╗░░░███╗██╗░░░██╗██╗░░██╗
+╚══██╔══╝██╔════╝██╔══██╗████╗░████║██║░░░██║╚██╗██╔╝
+░░░██║░░░█████╗░░██████╔╝██╔████╔██║██║░░░██║░╚███╔╝░
+░░░██║░░░██╔══╝░░██╔══██╗██║╚██╔╝██║██║░░░██║░██╔██╗░
+░░░██║░░░███████╗██║░░██║██║░╚═╝░██║╚██████╔╝██╔╝╚██╗
+░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░╚═╝
+██╗░░██╗██╗░░░██╗███╗░░██╗████████╗███████╗██████╗░
+██║░░██║██║░░░██║████╗░██║╚══██╔══╝██╔════╝██╔══██╗
+███████║██║░░░██║██╔██╗██║░░░██║░░░█████╗░░██████╔╝
+██╔══██║██║░░░██║██║╚████║░░░██║░░░██╔══╝░░██╔══██╗
+██║░░██║╚██████╔╝██║░╚███║░░░██║░░░███████╗██║░░██║
+╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
+Coder: Evan Al Mahmud Irfan.
+Github: github.com/sacrobrent
+FB: m.me/https://www.facebook.com/Evan.Al.Mahmud.Irfan.Official.xDD
+FB: m.me/https://www.facebook.com/Hey.Son.Its.Your.Papppa.E8A6.A5.M2H6U3.I7F2N
+"|lolcat
+echo "+++----------- Termux Extra Key -----------+++"|lolcat -a -s 99 -d 300
+xdg-open https://www.facebook.com/Hey.Son.Its.Your.Papppa.E8A6.A5.M2H6U3.I7F2N/
+echo " "
+echo " "
+echo "[1]. [ ESC && / && - && HOME && UP && END ]
+[ TAB && CTRL && ALT && LEFT && DOWN && RIGHT ]"|lolcat
+echo " "
+echo "[2]. [ cd && ls && nano && bash && python && php ]
+[ CTRL && ALT && LEFT && UP && DOWN && RIGHT ]"|lolcat
+echo " "
+echo "[3]. [ F1 && F2 && F3 && F4 && F5 && F6 && F7 ]
+[ ESC && / && - && HOME && UP && END && PGUP ]
+[ TAB && CTRL && ALT && LEFT && DOWN && RIGHT && PGDN ]"|lolcat
+echo " "
+echo "[e]. Exit"|lolcat
+echo " "
+read -p "Choice Any Number--->> " key
+if [ $key = 1 ] || [ $key = 1 ]
+then
+clear
+figlet "Extra Key"|lolcat
+apt update; apt upgrade -y
+mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1
+xdg-open https://www.facebook.com/Evan.Al.Mahmud.Irfan.Official.xDD/
+fi
+if [ $key = 2 ] || [ $key = 2 ]
+then
+clear
+figlet "Extra Key"|lolcat
+apt update; apt upgrade -y
+mkdir $HOME/.termux/ ;echo "extra-keys = [['cd ','ls','nano ','bash ','python','php'],['CTRL','ALT','LEFT','UP','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1
+xdg-open https://www.facebook.com/E826.A5.M24683.I7326.O33icia55/
+fi
+if [ $key = 3 ] || [ $key = 3 ]
+then
+clear
+figlet "Extra Key"|lolcat
+apt update; apt upgrade -y
+mkdir $HOME/.termux/ ;echo "extra-keys = [['F1','F2','F3','F4','F5','F6','F7'],['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" >> $HOME/.termux/termux.properties && termux-reload-settings && sleep 1
+xdg-open https://www.facebook.com/Evan.Al.Mahmud.Irfan.Official.xDD/
+fi
+if [ $key = e ] || [ $key = e ]
+then
+clear
+figlet "Extra Key"|lolcat
+xdg-open https://www.facebook.com/Evan.Al.Mahmud.Irfan.Official.xDD/
+exit
+fi
